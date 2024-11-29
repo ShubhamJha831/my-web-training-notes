@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parents{
+            border: 2px solid black;
+            height: 1000px;
+            width: 1000px;
+            position: absolute;
+            background-color: black;
+        }
+        .child1{
+            border: 2px solid red;
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            top: 0px;
+            background-color: red;
+            box-shadow: 10px 10px 120px yellow;
+            
+            
+        }
+        .child2:hover{
+           transform: translate(500px,300px) rotate(180deg);
+            
+        }
+        /* .child5:hover{
+            transform: translate(500px,300px) rotate(180deg);
+        } */
+        .child2{
+            border: 2px solid rgb(243, 243, 22);
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            background-color: yellow;
+            box-shadow: -10px 10px 90px red;
+        }
+        .child3{
+            border: 2px solid rgba(40, 242, 94, 0.839);
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            bottom: 0px;
+            background-color: rgba(46, 245, 46, 0.853);
+            box-shadow: 10px -10px 120px blue;
+        }
+        .child4{
+            border: 2px solid rgb(23, 20, 224);
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            background-color: rgb(23, 23, 235);
+            box-shadow: -10px -10px 120px greenyellow;
+        }
+        .child5{
+            border: 2px solid rgba(11, 15, 15, 0.782);
+            height: 1000px;
+            width: 1000px;
+            position: absolute;
+            justify-content: center;
+           align-items: center;
+           display: flex;
+
+           
+        }
+        .child5 .box{
+            background-color: rgb(71, 234, 234);
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+            box-shadow: 10px 10px 12px rgb(39, 174, 66);
+            box-shadow: -10px -10px 250px rgb(39, 174, 66);
+
+        }
+        
+    </style>
+
+</head>
+
+
+<body>
+    <h1 style="border: 2px black; background-color: black; box-shadow: 10px 10px 12px salmon; text-align: center; border-radius: 50px; color: white;">DAY 5</h1>
+    <div class="parents">
+    <div class="child1"></div>
+    <div class="child2"></div>
+    <div class="child3"></div>
+    <div class="child4"></div>
+    <div class="child5">
+        <div class="box">
+
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
